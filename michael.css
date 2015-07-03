@@ -1,0 +1,9 @@
+
+
+
+tr {color: blue;  front-size: 40; ;}
+table {width: 100%; text-align: center; background: deeppink; border-radius: 25px}
+a:link{color: red;}
+a:visited{color: yellowgreen;}
+a:hover{color: transparent;}
+a:active{color: darkgreen;}
