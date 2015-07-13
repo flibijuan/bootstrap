@@ -7,3 +7,17 @@ a:link{color: red;}
 a:visited{color: yellowgreen;}
 a:hover{color: transparent;}
 a:active{color: darkgreen;}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+.test {
+      position: relative;
+      top: 50px;
+      height: 200px;
+      overflow: auto;
+      font-size: 28px;
+  }
