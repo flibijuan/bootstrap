@@ -1,26 +1,49 @@
-body {
-  background-color: green;
+/*.bg {
+	href="http://gifrific.com/wp-content/uploads/2012/06/Picachu-crying-pokemon.gif"
 }
-table {
-  width: 100%;
-  background: deeppink;
-  border-radius: 25px;
-  border-top-left-radius: 100px;
-  border-bottom-right-radius: 50px;
+*/
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 200px;
+			height: 200px
+      margin: auto;
+  }
+
+a:link    {
+	color:green;
 }
-th {
-  text-align: left;
-  color: green;
+a:visited {
+	color:pink;
 }
-a:link{
-  color:red;
+a:hover   {
+	color:red;
 }
-a:visited{
-  color:blue;
+a:active  {
+	color:yellow;
 }
-a:hover{
-  color:black;
+
+/*
+.bg-arriere {
+	color:white;
 }
-a:active{
-  color:white;
+*/
+h1 {
+	text-align: center;
 }
+/*
+div {
+	height: 50px;
+	width: 100px;
+	border: 4px solid black;
+	border-color:#FF0000;
+	border-radius: 5px;
+	background-color: #308014;
+	margin-top:20px;
+	margin-right:50px;
+	margin-bottom:10px;
+	margin-left:5px;
+	position:relative;
+}
+*/

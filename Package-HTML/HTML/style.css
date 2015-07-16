@@ -200,7 +200,7 @@ span.middot {
 
 .rightmargin-sm { margin-right: 30px !important; }
 
-.topmargin-sm { margin-top: 30px !important; }
+.topmargin-sm { margin-top: 10px !important; }
 
 .bottommargin-sm { margin-bottom: 30px !important; }
 
@@ -969,7 +969,7 @@ body.stretched #header.full-header .container {
 	float: left;
 	padding-right: 15px;
 	margin-right: 15px;
-	border-right: 1px solid #EEE;
+	
 }
 
 #header.transparent-header.full-header #primary-menu > ul { border-right-color: rgba(0,0,0,0.1); }
@@ -8150,7 +8150,7 @@ body:not(.device-touch) .on-hover.i-overlay {
 
 
 .social-icon {
-	margin: 0 5px 5px 0;
+	margin: 0 0px 0px 0;
 	width: 40px;
 	height: 40px;
 	font-size: 20px;
@@ -11222,7 +11222,7 @@ button.toast-close-button {
 
 #footer .footer-widgets-wrap {
 	position: relative;
-	padding: 80px 0;
+	padding: 25px 0;
 }
 
 .footer-widgets-wrap .col_full,
