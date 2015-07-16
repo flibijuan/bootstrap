@@ -969,7 +969,7 @@ body.stretched #header.full-header .container {
 	float: left;
 	padding-right: 15px;
 	margin-right: 15px;
-	
+
 }
 
 #header.transparent-header.full-header #primary-menu > ul { border-right-color: rgba(0,0,0,0.1); }
@@ -10449,7 +10449,7 @@ label.error { display: none !important; }
 /* Heading Block - with Subtitle
 -----------------------------------------------------------------*/
 
-.heading-block { margin-bottom: 50px; }
+.heading-block { margin-bottom: 25px; }
 
 .heading-block h1,
 .heading-block h2,
