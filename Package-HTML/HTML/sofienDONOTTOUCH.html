@@ -179,6 +179,111 @@
 
          </div>
     </div>
+
+<div class="container">
+    <p></p>
+    <div class="fancy-title title-dotted-border title-center" style="bottom-margin:10px">
+        <h2>The course have a methodology divided into 3 <span>fundamental</span> pillars border</h2>
+    </div>
+    <div class="divider divider-short divider-rounded divider-center"><i class="icon-pencil"></i></div>
+</div>
+<!-- Process Steps
+============================================= -->
+<!-- Content
+============================================= -->
+<section id="content">
+
+    <div class="content-wrap">
+
+        <div class="container clearfix">
+
+            <div id="processTabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+
+
+
+                <ul class="process-steps process-3 bottommargin clearfix">
+                    <li>
+                        <a href="#ptab1" class="i-circled i-bordered i-alt divcenter">1</a>
+                        <h5>Coding training</h5>
+                    </li>
+                    <li>
+                        <a href="#ptab2" class="i-circled i-bordered i-alt divcenter">2</a>
+                        <h5>IT workflow</h5>
+                    </li>
+                    <li>
+                        <a href="#ptab3" class="i-circled i-bordered i-alt divcenter">3</a>
+                        <h5>Business consulting</h5>
+                    </li>
+                </ul>
+
+                <div>
+                    <div id="ptab1">
+                        <div class="row">
+                            <div class="col-lg-7 col-sm-7 col-xs-12">
+
+                                <ul class="skills">
+                                    <li data-percent="80">
+                                        <span>Wordpress</span>
+                                        <div class="progress">
+                                            <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="80" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
+                                        </div>
+                                    </li>
+                                    <li data-percent="60">
+                                        <span>CSS3</span>
+                                        <div class="progress">
+                                            <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="60" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
+                                        </div>
+                                    </li>
+                                    <li data-percent="90">
+                                        <span>HTML5</span>
+                                        <div class="progress">
+                                            <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="90" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
+                                        </div>
+                                    </li>
+                                    <li data-percent="70">
+                                        <span>jQuery</span>
+                                        <div class="progress">
+                                            <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="70" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-lg-5 col-sm-5 col-xs-12">
+
+                            </div>
+                            <p></p>
+                            <p>We will guide you through a process in which you will first master the basics of front-end development (HTML, CSS and JavaScript), to quickly move to back-end development (Meteor) which is the main focus of the course. You will be able to create web or mobile projects in a prototype version (iOS & Android) from the user interface to the management of the databases and user accounts.</p>
+                            <div class="line"></div>
+                        </div>
+
+                    </div>
+                    <div id="ptab2">
+                        <p>We train you in how to manage the IT workflow and the IT management tools, you will learn to use Github, best practices of slack,  mailchimp, mamp, wamp and ftp servers like cyberduck  among other common tools that are indispensable to entrepreneurs nowdays.</p>
+                        <div class="line"></div>
+                    </div>
+
+                    <div id="ptab3">
+                        <p>Because your ideas matter to us, the program includes a design thinking activity and a session of personal or group business&IT consulting/mentoring to help you understand market and technical feasibility of your ideas.</p>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                $(function() {
+                    $( "#processTabs" ).tabs({ show: { effect: "fade", duration: 400 } });
+                    $( ".tab-linker" ).click(function() {
+                        $( "#processTabs" ).tabs("option", "active", $(this).attr('rel') - 1);
+                        return false;
+                    });
+                });
+            </script>
+
+        </div>
+
+</section><!-- #content end -->
+
     </section><!-- #content end -->
 
     <!-- Footer
@@ -226,6 +331,9 @@
                 </div>
 
             </div>
+
+
+
 
 
 
